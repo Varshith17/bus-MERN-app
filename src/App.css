@@ -1,0 +1,228 @@
+.app{
+  font-family: calibri;
+}
+.header{
+    background-color: #e76767;
+    display: flex;
+    justify-content: space-between;
+}
+.header span{
+    margin-left:8rem;
+    color: aliceblue;
+    font-size: 48px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+}
+.logo{
+    color: rgb(94, 97, 100);
+    font-size: 60px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+}
+.ticketLogo{
+    color: #e76767;
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+}
+.header ul{
+  list-style-type: none;
+  margin: 0;
+  padding-top: 1.3rem;
+  color: aliceblue;
+}
+.header li{
+  display: inline-block;
+  margin-left: 2rem;
+  font-size: large;
+  cursor: pointer;
+}
+.navlinks{
+    padding-right: 4rem;
+    display: flex;
+}
+.navLinks span{
+  cursor: pointer;
+}
+.signUp{
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.searchBtn{
+  margin-top: 2rem;
+  border : 1px solid #e76767;
+  border-radius: 5px;
+  background-color: #e76767;
+  color: white;
+  width: 140px;
+  padding: 2px;
+  font-size: 22px;
+}
+.selectSeatsBtn{
+  width: 100px;
+  background-color: #e76767;
+  color: white;
+  padding: 3px;
+  text-align: center;
+}
+.seat{
+  width:25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 25px 25px 0px 0px;
+  text-align: center;
+}
+.bus-seats{
+  width: 200px;
+  border: 2px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+.bookedSeat{
+  background-color: rgb(146, 143, 143);
+  cursor:not-allowed;
+}
+.selectedSeat{
+  background-color: rgb(130, 212, 245);
+}
+table{
+  table-layout: fixed;
+}
+td{
+  padding: 5px;
+}
+.container-style{
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 6px 0 rgb(32 33 36 / 18%);
+  background-color: #D8DBDD;
+}
+.ticketTable{
+  margin: 0 auto;
+  width: 90%;
+}
+.ticketTable tbody{
+  border: 2px solid #ddd;
+}
+.ticketTable tr{
+  border-top: 2px solid #ddd;
+}
+.passengerDetails{
+  margin: 0 auto;
+  width: 90%;
+}
+.viewTicket{
+  background-color:whitesmoke;
+  padding-top: 0.1rem;
+  font-weight: 600;
+}
+.paymentTable td{
+  padding:0;
+  height: 60px;
+}
+.cardDetails {
+  font-size: 20px;
+}
+.cardInput {
+	background: #f9f9f9;
+	padding: 10px;
+	border: none;
+	margin-bottom: 10px;
+	font-size: 16px;
+  width: 300px;
+	color: rgb(0, 0, 0);
+	outline: none;
+	font-weight: 500;
+}
+.homePage{
+  height: 100px;
+  background-color: #f3b3b3;
+}
+.homePageLogo{
+  color: #e76767;
+  font-size: 80px;
+  font-family: 'Brush Script MT', cursive;
+  font-weight: bold;
+  padding-top: 6rem;
+}
+.debitCard{
+  margin: 0;
+  margin-top: 0.5rem;
+  padding-right: 5rem;
+}
+.dashboardContainer{
+  margin-top: 5rem;
+  min-height: 400px;
+  margin-bottom: 5rem;
+}
+.logOutModal{
+  float: right;
+  width: 150px;
+  height: 70px;
+  border: 1px solid #ddd;
+  background-color: #e76767;
+}
+.logOutModalContent{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  padding:0;
+  border: 1px solid #ddd;
+}
+.square_btn {
+  margin: 0 auto;
+  font-weight: bold;
+  padding: 1rem 0.5rem;
+  text-decoration: none;
+  color: #FFF;
+  background: #ff7f7f;
+  transition: .4s;
+  width: 250px;
+  height: 70px;
+  margin-top: 2rem;
+}
+
+.square_btn>span{
+  border-bottom: solid 2px #FFF;
+  border-top: solid 2px #FFF;
+  font-size: 24px;
+  margin-left: 1.8rem;
+  cursor: pointer;
+}
+.square_btn:hover span {
+  padding: 0.5em 0;
+}
+.footer{
+  background-color: #f8f5f5;
+}
+.homePageContainer{
+  height: 500px;
+  background-image: url('./images/img2.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.footerImage1{
+  width: 450px;
+  height: 300px;
+  background-image: url('./images/footerImage1.jpg');
+  background-repeat: no-repeat; 
+  background-size: 90%;
+}
+.footerImage2{
+  width:450px;
+  height: 300px;
+  background-image: url('./images/footerImage2.jpg');
+  background-repeat: no-repeat; 
+  background-size: 90%;
+}
+.footerImage3{
+  width: 450px;
+  height: 300px;
+  background-image: url('./images/footerImage3.jpg');
+  background-repeat: no-repeat; 
+  background-size: 80%;
+}
+.seatsInfo{
+  margin-top: 12rem;
+}
